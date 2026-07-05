@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="H,^Y1`#lH7B7?0k+6XXn" x="0" y="0"></block><block type="pxt-on-start" id="gEL~@Z!rNxE0vawSoDvD" x="168" y="1"></block><block type="device_gesture_event" id="mX1{)2V~acse5z1_9JAU" x="329" y="83"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="device_show_leds" id="qIypg-(%o671MNRxbK8S"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="+5e{SIWTaRywSOswA#Zt"><value name="pause"><shadow type="timePicker" id="L17a`}NFOp`VixsAVqZ,"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="%8s/vL}EWCse%nsr,dwz"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_clear_display" id="Xf)[/5ncS):|x,rBsC.7"></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="|gnT5iLf2b}1py@,iWH*" x="629" y="82"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="basic_show_icon" id="bBd:e*p!5,@=JolidP9~"><field name="i">IconNames.Heart</field><next><block type="device_clear_display" id="#vY$yut[.kd2OLU1CE{)"><next><block type="device_pause" id="#k}sKq}M/A0xYAflRV%c"><value name="pause"><shadow type="timePicker" id="yFU=;KD)zDtj21PATA6_"><field name="ms">2000</field></shadow></value><next><block type="basic_show_icon" id="49mLb:-(6hscJ+{Yl92B"><field name="i">IconNames.Heart</field><next><block type="device_clear_display" id="Q.#UOp:T25q$SnBdMlor"><next><block type="basic_show_icon" id="/H:QKW[[D9;=~0T8*3b["><field name="i">IconNames.Target</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="input_on_sound" id="WXF=l9BS%!(#;~-DQZ#Y" x="869" y="72"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="basic_show_icon" id="gdGLyiIP,9_U!#gU$2Bw"><field name="i">IconNames.Heart</field><next><block type="device_clear_display" id="OJH_hdHUETc-AnT)5VD*"><next><block type="device_pause" id="?t*MfR=@~vzVsbXa?G5F"><value name="pause"><shadow type="timePicker" id="AHOrC0x}4PLRsI3be,Q7"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="8|cIWn=?CL}=R9vP2a_-"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_clear_display" id="_$j!}O`HFI;buC^@Q!A|"></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="=Bkv*$Gx}*UWR|NfzvSg" x="80" y="139"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="LMM|F@X#+SLgNH(mRJDB"><value name="text"><shadow type="text" id=".ys2q~z-^+Sgo,A4~eD:"><field name="TEXT">55555</field></shadow></value></block></statement></block><block type="device_button_event" id="f_j)8vd+Ud#rY$Z)tze!" x="67" y="319"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="t8QmA2=x3lZe$#MoKzUB"><value name="text"><shadow type="text" id=",h^0CuF:|bM;}jB_X+*X"><field name="TEXT">gu kuy 56</field></shadow></value></block></statement></block><block type="device_button_event" id="zSo7#FTXUpAd[UZFidde" x="43" y="477"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="UGe`=~u/,(Gm]Y2+fs5B"><value name="text"><shadow type="text" id="h#fyfSS,]E{0L-W{@$Fu"><field name="TEXT">kuy</field></shadow></value></block></statement></block></xml>
